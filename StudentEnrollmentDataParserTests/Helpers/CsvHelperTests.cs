@@ -14,12 +14,6 @@ namespace StudentEnrollmentDataParserTests.Helpers
         }
 
         [TestMethod]
-        public void TestStandardCharacterHandling()
-        {
-            Assert.AreEqual("test", "test");
-        }
-
-        [TestMethod]
         public void TestSpecialCharCsvSetup()
         {
             Assert.AreEqual(CsvHelper.SetupInputForCsv("Jones, Jr."), "\"Jones, Jr.\"");
