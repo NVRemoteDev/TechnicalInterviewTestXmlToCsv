@@ -30,7 +30,6 @@ namespace StudentEnrollmentDataParser
 
             // I purposefully overdesigned this solution to show concepts.
             // I would likely approach this problem differently in a real life scenario
-            // (i.e.: I would likely consider Linq)
             var factory = new SchoolEnrollmentFactory(inputFile, outputFile);
             factory.WriteOutputFile();
 
